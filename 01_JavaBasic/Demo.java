@@ -166,10 +166,120 @@
 
 
         // Ternary Operator
+        int n = 7;
+        int result6 = 0;
+
+        if(n%2==0){
+            result6 = 10;  
+
+        }else{
+            result6 = 20;
+        }
+        // ternary operator
+        result6 = n%2==0 ? 10 : 20; 
+        System.out.println(result6);
+        
+        //Switch Statement 
+        if (n==1) {
+            System.out.println("Monday");
+        } else if (n==2) {
+            System.out.println("Tuesday");
+        } else if (n==3) {
+            System.out.println("Wednesday");
+        }else if (n==4) {
+            System.out.println("Thursday");
+        }else if (n==5) {
+            System.out.println("Friday");
+        }else if (n==6) {
+            System.out.println("Saturday");
+        }else if (n==7) {
+            System.out.println("Sunday");
+        }
+
+        switch (n) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Thuesday");      
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");              
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");                
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Enter a valid number");
+
+        }
+
         
 
-        // Loops 
+        // Loops - while, do while, for 
+        /// Repeate this steatement 4 times
+        /// 100 - condition
+        int i = 5;
+        while (i < 4) {     
+            System.out.println("hi"+ i);
+      
+            int j = 1;
+            while (j<=3) {
+                System.out.println("Hello"+j);
+                j++;
+            }
+            
+            i++;
 
+        }
+        System.out.println("Bye" + i);
+
+        ///Nested while loop
+        do{
+            System.out.println("hi"+i);
+        }while (i<=4);
+
+
+        /// for loop
+        ///  - Initialization value
+        ///  - Condition
+        ///  - Increment & Decrement 
+         
+        for(int i1=5; i1<=4; i1++){
+            System.out.println("Hi " + i1);
+
+            /// Inner loop
+            for(int x1=1; x1<=9; x++){
+                System.out.println(" " + x1+8);
+            }
+        }
+
+        int i1=5;
+          for(; i1<=4; ){
+            System.out.println("Hi " + i1);
+
+            /// Inner loop
+            for(int x1=1; x1<=9; x++){
+                System.out.println(" " + x1+8);
+            }
+            i1++;
+        }
+        
+
+
+        // Object Oriented Programming 
+        // Object - Properties and Behaviours
+
+        // Class -
 
 
 
